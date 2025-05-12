@@ -1,0 +1,17 @@
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCiphers.Form1.resources
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.csproj.GenerateResource.cache
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.AssemblyInfoInputs.cache
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.AssemblyInfo.cs
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.csproj.CoreCompileInputs.cache
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.sourcelink.json
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\bin\Debug\net8.0-windows\ClassicalCipher.exe
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\bin\Debug\net8.0-windows\ClassicalCipher.deps.json
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\bin\Debug\net8.0-windows\ClassicalCipher.runtimeconfig.json
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\bin\Debug\net8.0-windows\ClassicalCipher.dll
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\bin\Debug\net8.0-windows\ClassicalCipher.pdb
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.dll
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\refint\ClassicalCipher.dll
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.pdb
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ClassicalCipher.genruntimeconfig.cache
+C:\Users\Afomi\Videos\encryption\ClassicalCipher\obj\Debug\net8.0-windows\ref\ClassicalCipher.dll
