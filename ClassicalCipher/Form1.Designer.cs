@@ -41,9 +41,13 @@
             this.txtPlaintext = new System.Windows.Forms.TextBox();
             this.lblPlaintext = new System.Windows.Forms.Label();
             this.grpTranspositionEncrypt = new System.Windows.Forms.GroupBox();
+            this.txtTranspositionKeyEncrypt = new System.Windows.Forms.TextBox();
+            this.lblTranspositionKeyEncrypt = new System.Windows.Forms.Label();
             this.cmbTranspositionEncrypt = new System.Windows.Forms.ComboBox();
             this.lblTranspositionEncrypt = new System.Windows.Forms.Label();
             this.grpSubstitutionEncrypt = new System.Windows.Forms.GroupBox();
+            this.txtSubstitutionKeyEncrypt = new System.Windows.Forms.TextBox();
+            this.lblSubstitutionKeyEncrypt = new System.Windows.Forms.Label();
             this.cmbSubstitutionEncrypt = new System.Windows.Forms.ComboBox();
             this.lblSubstitutionEncrypt = new System.Windows.Forms.Label();
             this.tabDecrypt = new System.Windows.Forms.TabPage();
@@ -58,9 +62,13 @@
             this.txtCiphertext = new System.Windows.Forms.TextBox();
             this.lblCiphertext = new System.Windows.Forms.Label();
             this.grpTranspositionDecrypt = new System.Windows.Forms.GroupBox();
+            this.txtTranspositionKeyDecrypt = new System.Windows.Forms.TextBox();
+            this.lblTranspositionKeyDecrypt = new System.Windows.Forms.Label();
             this.cmbTranspositionDecrypt = new System.Windows.Forms.ComboBox();
             this.lblTranspositionDecrypt = new System.Windows.Forms.Label();
             this.grpSubstitutionDecrypt = new System.Windows.Forms.GroupBox();
+            this.txtSubstitutionKeyDecrypt = new System.Windows.Forms.TextBox();
+            this.lblSubstitutionKeyDecrypt = new System.Windows.Forms.Label();
             this.cmbSubstitutionDecrypt = new System.Windows.Forms.ComboBox();
             this.lblSubstitutionDecrypt = new System.Windows.Forms.Label();
             this.tabInformation = new System.Windows.Forms.TabPage();
@@ -210,6 +218,8 @@
             // 
             // grpTranspositionEncrypt
             // 
+            this.grpTranspositionEncrypt.Controls.Add(this.txtTranspositionKeyEncrypt);
+            this.grpTranspositionEncrypt.Controls.Add(this.lblTranspositionKeyEncrypt);
             this.grpTranspositionEncrypt.Controls.Add(this.cmbTranspositionEncrypt);
             this.grpTranspositionEncrypt.Controls.Add(this.lblTranspositionEncrypt);
             this.grpTranspositionEncrypt.Location = new System.Drawing.Point(400, 20);
@@ -219,13 +229,30 @@
             this.grpTranspositionEncrypt.TabStop = false;
             this.grpTranspositionEncrypt.Text = "Transposition Cipher";
             // 
+            // txtTranspositionKeyEncrypt
+            // 
+            this.txtTranspositionKeyEncrypt.Location = new System.Drawing.Point(150, 45);
+            this.txtTranspositionKeyEncrypt.Name = "txtTranspositionKeyEncrypt";
+            this.txtTranspositionKeyEncrypt.Size = new System.Drawing.Size(190, 20);
+            this.txtTranspositionKeyEncrypt.TabIndex = 3;
+            this.txtTranspositionKeyEncrypt.Text = "CRYPTO";
+            // 
+            // lblTranspositionKeyEncrypt
+            // 
+            this.lblTranspositionKeyEncrypt.AutoSize = true;
+            this.lblTranspositionKeyEncrypt.Location = new System.Drawing.Point(150, 25);
+            this.lblTranspositionKeyEncrypt.Name = "lblTranspositionKeyEncrypt";
+            this.lblTranspositionKeyEncrypt.Size = new System.Drawing.Size(28, 13);
+            this.lblTranspositionKeyEncrypt.TabIndex = 2;
+            this.lblTranspositionKeyEncrypt.Text = "Key:";
+            // 
             // cmbTranspositionEncrypt
             // 
             this.cmbTranspositionEncrypt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTranspositionEncrypt.FormattingEnabled = true;
             this.cmbTranspositionEncrypt.Location = new System.Drawing.Point(10, 45);
             this.cmbTranspositionEncrypt.Name = "cmbTranspositionEncrypt";
-            this.cmbTranspositionEncrypt.Size = new System.Drawing.Size(330, 21);
+            this.cmbTranspositionEncrypt.Size = new System.Drawing.Size(130, 21);
             this.cmbTranspositionEncrypt.TabIndex = 1;
             // 
             // lblTranspositionEncrypt
@@ -233,12 +260,14 @@
             this.lblTranspositionEncrypt.AutoSize = true;
             this.lblTranspositionEncrypt.Location = new System.Drawing.Point(10, 25);
             this.lblTranspositionEncrypt.Name = "lblTranspositionEncrypt";
-            this.lblTranspositionEncrypt.Size = new System.Drawing.Size(134, 13);
+            this.lblTranspositionEncrypt.Size = new System.Drawing.Size(67, 13);
             this.lblTranspositionEncrypt.TabIndex = 0;
-            this.lblTranspositionEncrypt.Text = "Select Transposition Cipher:";
+            this.lblTranspositionEncrypt.Text = "Cipher Type:";
             // 
             // grpSubstitutionEncrypt
             // 
+            this.grpSubstitutionEncrypt.Controls.Add(this.txtSubstitutionKeyEncrypt);
+            this.grpSubstitutionEncrypt.Controls.Add(this.lblSubstitutionKeyEncrypt);
             this.grpSubstitutionEncrypt.Controls.Add(this.cmbSubstitutionEncrypt);
             this.grpSubstitutionEncrypt.Controls.Add(this.lblSubstitutionEncrypt);
             this.grpSubstitutionEncrypt.Location = new System.Drawing.Point(20, 20);
@@ -248,13 +277,30 @@
             this.grpSubstitutionEncrypt.TabStop = false;
             this.grpSubstitutionEncrypt.Text = "Substitution Cipher";
             // 
+            // txtSubstitutionKeyEncrypt
+            // 
+            this.txtSubstitutionKeyEncrypt.Location = new System.Drawing.Point(150, 45);
+            this.txtSubstitutionKeyEncrypt.Name = "txtSubstitutionKeyEncrypt";
+            this.txtSubstitutionKeyEncrypt.Size = new System.Drawing.Size(190, 20);
+            this.txtSubstitutionKeyEncrypt.TabIndex = 3;
+            this.txtSubstitutionKeyEncrypt.Text = "3";
+            // 
+            // lblSubstitutionKeyEncrypt
+            // 
+            this.lblSubstitutionKeyEncrypt.AutoSize = true;
+            this.lblSubstitutionKeyEncrypt.Location = new System.Drawing.Point(150, 25);
+            this.lblSubstitutionKeyEncrypt.Name = "lblSubstitutionKeyEncrypt";
+            this.lblSubstitutionKeyEncrypt.Size = new System.Drawing.Size(89, 13);
+            this.lblSubstitutionKeyEncrypt.TabIndex = 2;
+            this.lblSubstitutionKeyEncrypt.Text = "Shift Value (1-25):";
+            // 
             // cmbSubstitutionEncrypt
             // 
             this.cmbSubstitutionEncrypt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSubstitutionEncrypt.FormattingEnabled = true;
             this.cmbSubstitutionEncrypt.Location = new System.Drawing.Point(10, 45);
             this.cmbSubstitutionEncrypt.Name = "cmbSubstitutionEncrypt";
-            this.cmbSubstitutionEncrypt.Size = new System.Drawing.Size(330, 21);
+            this.cmbSubstitutionEncrypt.Size = new System.Drawing.Size(130, 21);
             this.cmbSubstitutionEncrypt.TabIndex = 1;
             // 
             // lblSubstitutionEncrypt
@@ -262,9 +308,9 @@
             this.lblSubstitutionEncrypt.AutoSize = true;
             this.lblSubstitutionEncrypt.Location = new System.Drawing.Point(10, 25);
             this.lblSubstitutionEncrypt.Name = "lblSubstitutionEncrypt";
-            this.lblSubstitutionEncrypt.Size = new System.Drawing.Size(129, 13);
+            this.lblSubstitutionEncrypt.Size = new System.Drawing.Size(67, 13);
             this.lblSubstitutionEncrypt.TabIndex = 0;
-            this.lblSubstitutionEncrypt.Text = "Select Substitution Cipher:";
+            this.lblSubstitutionEncrypt.Text = "Cipher Type:";
             // 
             // tabDecrypt
             // 
@@ -383,6 +429,8 @@
             // 
             // grpTranspositionDecrypt
             // 
+            this.grpTranspositionDecrypt.Controls.Add(this.txtTranspositionKeyDecrypt);
+            this.grpTranspositionDecrypt.Controls.Add(this.lblTranspositionKeyDecrypt);
             this.grpTranspositionDecrypt.Controls.Add(this.cmbTranspositionDecrypt);
             this.grpTranspositionDecrypt.Controls.Add(this.lblTranspositionDecrypt);
             this.grpTranspositionDecrypt.Location = new System.Drawing.Point(400, 20);
@@ -392,13 +440,30 @@
             this.grpTranspositionDecrypt.TabStop = false;
             this.grpTranspositionDecrypt.Text = "Transposition Cipher";
             // 
+            // txtTranspositionKeyDecrypt
+            // 
+            this.txtTranspositionKeyDecrypt.Location = new System.Drawing.Point(150, 45);
+            this.txtTranspositionKeyDecrypt.Name = "txtTranspositionKeyDecrypt";
+            this.txtTranspositionKeyDecrypt.Size = new System.Drawing.Size(190, 20);
+            this.txtTranspositionKeyDecrypt.TabIndex = 3;
+            this.txtTranspositionKeyDecrypt.Text = "CRYPTO";
+            // 
+            // lblTranspositionKeyDecrypt
+            // 
+            this.lblTranspositionKeyDecrypt.AutoSize = true;
+            this.lblTranspositionKeyDecrypt.Location = new System.Drawing.Point(150, 25);
+            this.lblTranspositionKeyDecrypt.Name = "lblTranspositionKeyDecrypt";
+            this.lblTranspositionKeyDecrypt.Size = new System.Drawing.Size(28, 13);
+            this.lblTranspositionKeyDecrypt.TabIndex = 2;
+            this.lblTranspositionKeyDecrypt.Text = "Key:";
+            // 
             // cmbTranspositionDecrypt
             // 
             this.cmbTranspositionDecrypt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbTranspositionDecrypt.FormattingEnabled = true;
             this.cmbTranspositionDecrypt.Location = new System.Drawing.Point(10, 45);
             this.cmbTranspositionDecrypt.Name = "cmbTranspositionDecrypt";
-            this.cmbTranspositionDecrypt.Size = new System.Drawing.Size(330, 21);
+            this.cmbTranspositionDecrypt.Size = new System.Drawing.Size(130, 21);
             this.cmbTranspositionDecrypt.TabIndex = 1;
             // 
             // lblTranspositionDecrypt
@@ -406,12 +471,14 @@
             this.lblTranspositionDecrypt.AutoSize = true;
             this.lblTranspositionDecrypt.Location = new System.Drawing.Point(10, 25);
             this.lblTranspositionDecrypt.Name = "lblTranspositionDecrypt";
-            this.lblTranspositionDecrypt.Size = new System.Drawing.Size(134, 13);
+            this.lblTranspositionDecrypt.Size = new System.Drawing.Size(67, 13);
             this.lblTranspositionDecrypt.TabIndex = 0;
-            this.lblTranspositionDecrypt.Text = "Select Transposition Cipher:";
+            this.lblTranspositionDecrypt.Text = "Cipher Type:";
             // 
             // grpSubstitutionDecrypt
             // 
+            this.grpSubstitutionDecrypt.Controls.Add(this.txtSubstitutionKeyDecrypt);
+            this.grpSubstitutionDecrypt.Controls.Add(this.lblSubstitutionKeyDecrypt);
             this.grpSubstitutionDecrypt.Controls.Add(this.cmbSubstitutionDecrypt);
             this.grpSubstitutionDecrypt.Controls.Add(this.lblSubstitutionDecrypt);
             this.grpSubstitutionDecrypt.Location = new System.Drawing.Point(20, 20);
@@ -421,13 +488,30 @@
             this.grpSubstitutionDecrypt.TabStop = false;
             this.grpSubstitutionDecrypt.Text = "Substitution Cipher";
             // 
+            // txtSubstitutionKeyDecrypt
+            // 
+            this.txtSubstitutionKeyDecrypt.Location = new System.Drawing.Point(150, 45);
+            this.txtSubstitutionKeyDecrypt.Name = "txtSubstitutionKeyDecrypt";
+            this.txtSubstitutionKeyDecrypt.Size = new System.Drawing.Size(190, 20);
+            this.txtSubstitutionKeyDecrypt.TabIndex = 3;
+            this.txtSubstitutionKeyDecrypt.Text = "3";
+            // 
+            // lblSubstitutionKeyDecrypt
+            // 
+            this.lblSubstitutionKeyDecrypt.AutoSize = true;
+            this.lblSubstitutionKeyDecrypt.Location = new System.Drawing.Point(150, 25);
+            this.lblSubstitutionKeyDecrypt.Name = "lblSubstitutionKeyDecrypt";
+            this.lblSubstitutionKeyDecrypt.Size = new System.Drawing.Size(89, 13);
+            this.lblSubstitutionKeyDecrypt.TabIndex = 2;
+            this.lblSubstitutionKeyDecrypt.Text = "Shift Value (1-25):";
+            // 
             // cmbSubstitutionDecrypt
             // 
             this.cmbSubstitutionDecrypt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbSubstitutionDecrypt.FormattingEnabled = true;
             this.cmbSubstitutionDecrypt.Location = new System.Drawing.Point(10, 45);
             this.cmbSubstitutionDecrypt.Name = "cmbSubstitutionDecrypt";
-            this.cmbSubstitutionDecrypt.Size = new System.Drawing.Size(330, 21);
+            this.cmbSubstitutionDecrypt.Size = new System.Drawing.Size(130, 21);
             this.cmbSubstitutionDecrypt.TabIndex = 1;
             // 
             // lblSubstitutionDecrypt
@@ -435,9 +519,9 @@
             this.lblSubstitutionDecrypt.AutoSize = true;
             this.lblSubstitutionDecrypt.Location = new System.Drawing.Point(10, 25);
             this.lblSubstitutionDecrypt.Name = "lblSubstitutionDecrypt";
-            this.lblSubstitutionDecrypt.Size = new System.Drawing.Size(129, 13);
+            this.lblSubstitutionDecrypt.Size = new System.Drawing.Size(67, 13);
             this.lblSubstitutionDecrypt.TabIndex = 0;
-            this.lblSubstitutionDecrypt.Text = "Select Substitution Cipher:";
+            this.lblSubstitutionDecrypt.Text = "Cipher Type:";
             // 
             // tabInformation
             // 
@@ -459,7 +543,7 @@
             this.rtbInformation.TabIndex = 0;
             this.rtbInformation.Text = "";
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -467,7 +551,7 @@
             this.Controls.Add(this.tabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Classical Cipher Application";
             this.tabControl.ResumeLayout(false);
@@ -537,5 +621,13 @@
         private System.Windows.Forms.Label lblDecryptVerification;
         private System.Windows.Forms.TextBox txtDecryptVerification;
         private System.Windows.Forms.RichTextBox rtbInformation;
+        private System.Windows.Forms.TextBox txtSubstitutionKeyEncrypt;
+        private System.Windows.Forms.Label lblSubstitutionKeyEncrypt;
+        private System.Windows.Forms.TextBox txtTranspositionKeyEncrypt;
+        private System.Windows.Forms.Label lblTranspositionKeyEncrypt;
+        private System.Windows.Forms.TextBox txtSubstitutionKeyDecrypt;
+        private System.Windows.Forms.Label lblSubstitutionKeyDecrypt;
+        private System.Windows.Forms.TextBox txtTranspositionKeyDecrypt;
+        private System.Windows.Forms.Label lblTranspositionKeyDecrypt;
     }
 }

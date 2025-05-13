@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClassicalCipher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+888b4feb7480a9845aab6a3e917124e1902850f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08b26b72cd72ddc79ea247623b06cbc57425546d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClassicalCipher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClassicalCipher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
